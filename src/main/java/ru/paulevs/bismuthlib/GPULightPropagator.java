@@ -30,7 +30,7 @@ public class GPULightPropagator {
 		if (shader == null) {
 			try {
 				shader = new ShaderInstance(
-					Minecraft.getInstance().getClientPackSource().getVanillaPack().asProvider(),
+					Minecraft.getInstance().getLevelSource().getVanillaPack().asProvider(),
 					"bismuthlib_gpu_light",
 					DefaultVertexFormat.POSITION_TEX
 				);

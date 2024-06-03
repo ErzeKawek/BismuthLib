@@ -222,7 +222,7 @@ public class LightPropagator {
 	}
 	
 	private boolean blockLight(BlockState state, BlockGetter level, BlockPos pos) {
-		return state.getMaterial().isSolidBlocking() || !state.propagatesSkylightDown(level, pos);
+		return state.isAir() || !state.propagatesSkylightDown(level, pos);
 	}
 	
 	private static int getMaskIndex(byte x, byte y, byte z) {
