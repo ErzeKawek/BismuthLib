@@ -21,7 +21,7 @@ public class BlockLights {
 		}
 	}
 	
-	public static void addLight(Block block, LightInfo light) {
+	public static void addLight(Object block, LightInfo light) {
 		block.getStateDefinition().getPossibleStates().forEach(state -> addLight(state, light));
 	}
 	
