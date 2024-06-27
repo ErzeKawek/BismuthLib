@@ -3,10 +3,11 @@
 	"id": "bismuthlib",
 	"version": "${version}",
 	
-	"name": "Bismuth Lib",
-	"description": "A mod and library for colored lights",
+	"name": "BismuthLib",
+	"description": "A library for colored lights",
 	"authors": [
-		"paulevs"
+		"paulevs (OG Author)",
+		"ErzeKawek (Maintainer)"
 	],
 	"contact": {
 		"homepage": "https://github.com/paulevsGitch/BismuthLib",
@@ -28,9 +29,9 @@
 	],
 	
 	"depends": {
-		"fabricloader": ">=0.14.6",
+		"fabricloader": ">=0.15.0",
 		"fabric": "*",
-		"minecraft": "~1.19",
+		"minecraft": "1.20.1",
 		"java": ">=17"
 	}
 }

@@ -1,6 +1,6 @@
 {
-	"bismuthlib.options.settings": "Bismuth Lib",
-	"bismuthlib.options.settings.title": "Bismuth Lib Settings",
+	"bismuthlib.options.settings": "BismuthLib",
+	"bismuthlib.options.settings.title": "BismuthLib Settings",
 	"bismuthlib.options.mapRadiusXZ": "XZ Radius",
 	"bismuthlib.options.mapRadiusY": "Y Radius",
 	"bismuthlib.options.mapRadiusY.3": "3 (Fast)",
